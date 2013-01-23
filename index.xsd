@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <xsd:element name="text" type="xsd:string"/>
+	<xsd:element name="pied" type="xsd:string"/>
+
+	<xsd:element name="page">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="entete"/>
+				<xsd:element name="corps"/>
+				<xsd:element name="pied"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+
+	<xsd:element name="entete">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="titre"/>
+				<xsd:element name="navigation"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+
+	<xsd:element name="titre">
+		<xsd:complexType>
+			<xsd:attribute name="nom" type="xsd:string" use="required"/>
+		</xsd:complexType>
+	</xsd:element>
+
+	<xsd:element name="navigation">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="liste"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+
+	<xsd:element name="liste">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="lien_acc"/>
+				<xsd:element name="lien"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+
+	<xsd:element name="lien_acc">
+		<xsd:complexType>
+			<xsd:attribute name="nom" type="xsd:string" use="required"/>
+		</xsd:complexType>
+	</xsd:element>
+
+	<xsd:element name="lien">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="sousliste"/>
+			</xsd:sequence>
+			<xsd:attribute name="nom" type="xsd:string" use="required"/>
+		</xsd:complexType>
+	</xsd:element>
+
+	<xsd:element name="sousliste">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="souslien"/>
+			</xsd:sequence>
+			<xsd:attribute name="nom" type="xsd:string" use="required"/>
+		</xsd:complexType>
+	</xsd:element>
+
+	<xsd:element name="corps">
+		<xsd:complexType>
+
+			<xsd:sequence>
+				<xsd:element name="introduction"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+
+	<xsd:element name="introduction">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="text"/>
+			</xsd:sequence>
+			<xsd:attribute name="nom" type="xsd:string"/>
+		</xsd:complexType>
+	</xsd:element>
+
+	<xsd:element name="lien4">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="souslien1"/>
+				<xsd:element name="souslien2"/>
+				<xsd:element name="souslien3"/>
+			</xsd:sequence>
+			<xsd:attribute name="nom" type="xsd:string"/>
+		</xsd:complexType>
+	</xsd:element>
+
+	<xsd:element name="lien5">
+		<xsd:complexType>
+			<xsd:attribute name="nom" type="xsd:string"/>
+		</xsd:complexType>
+	</xsd:element>
+
+	<xsd:element name="souslien1">
+		<xsd:complexType>
+			<xsd:attribute name="nom" type="xsd:string"/>
+		</xsd:complexType>
+	</xsd:element>
+
+	<xsd:element name="souslien2">
+		<xsd:complexType>
+			<xsd:attribute name="nom" type="xsd:string"/>
+		</xsd:complexType>
+	</xsd:element>
+
+	<xsd:element name="souslien3">
+		<xsd:complexType>
+			<xsd:attribute name="nom" type="xsd:string"/>
+		</xsd:complexType>
+	</xsd:element>
+
+	<xsd:element name="souslien4">
+		<xsd:complexType>
+			<xsd:attribute name="nom" type="xsd:string"/>
+		</xsd:complexType>
+	</xsd:element>
+</xsd:schema>
