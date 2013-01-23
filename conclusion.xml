@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<page>
+  <entete>
+		<titre nom="XML et évolution du Web" />
+		<navigation>
+			<liste>
+				<lien nom="accueil" />
+				<lien nom="Origine et but du XML">
+					<sousliste>
+						<souslien nom="Les origines du xml" />
+						<souslien nom="Pourquoi le XML ?" />
+						<souslien nom="les atouts du XML" />
+						<souslien nom="Un format en vogue" />
+					</sousliste>
+				</lien>
+				<lien nom="Les évolutions du web">
+					<sousliste>
+						<souslien nom="Web 3.0" />
+						<souslien nom="Web sémantique" />
+						<souslien nom="Internet des objets" />
+						<souslien nom="Internet mobile" />
+					</sousliste>
+				</lien>
+				<lien nom="L’évolution du XML">
+					<sousliste>
+						<souslien nom="Les freins" />
+						<souslien nom="La convergence" />
+						<souslien nom="le langage du XXIème siècle ?" />
+					</sousliste>
+				</lien>
+				<lien nom="Conclusion" />
+			</liste>
+		</navigation>
+	</entete>
+	<corps>
+		<conclusion>
+			<text>bablabla</text>
+		</conclusion>
+	</corps>
+	<pied></pied>
+</page>
+
+
