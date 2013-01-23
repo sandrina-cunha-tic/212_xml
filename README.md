@@ -1,4 +1,3 @@
 212_xml
 =======
-
-site xml
+Salut au groupe, nous allons faire du bon travail
