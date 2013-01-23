@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<?xml-stylesheet href="index.xsl" type="text/xsl"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd">
+  <entete>
+		<titre nom="XML et évolution du Web" />
+		<navigation>
+			<liste>
+				<lien_acc nom="accueil" />
+				<lien nom="Origine et but du XML">
+					<sousliste>
+						<souslien nom="Les origines du xml" />
+						<souslien nom_1="Pourquoi le XML ?" />
+						<souslien nom_2="les atouts du XML" />
+						<souslien nom_3="Un format en vogue" />
+					</sousliste>
+				</lien>
+				<lien nom="Les évolutions du web">
+					<sousliste>
+						<souslien nom="Web 3.0" />
+						<souslien nom_1="Web sémantique" />
+						<souslien nom_2="Internet des objets" />
+						<souslien nom_3="Internet mobile" />
+					</sousliste>
+				</lien>
+				<lien nom="L’évolution du XML">
+					<sousliste>
+						<souslien nom="Les freins" />
+						<souslien nom_1="La convergence" />
+						<souslien nom_2="le langage du XXIème siècle ?" />
+					</sousliste>
+				</lien>
+				<lien_acc nom="Conclusion" />
+			</liste>
+		</navigation>
+	</entete>
+	<corps>
+		<introduction>
+			<text>On commence à entendre beaucoup parler du langage xml depuis quelques années.
+				Le web étant aussi en perpétuelle évolution, le web 3.0 se profile avec des métamorphoses importantes
+				au niveau des applications pratiques. Le langage XML et ses dérivés sont-ils juste un effet de mode
+				ou vont-ils prendre une place de plus en plus importante dans les nouvelles évolutions de l'Internet ?</text>
+		</introduction>
+	</corps>
+	<pied></pied>
+</page>
