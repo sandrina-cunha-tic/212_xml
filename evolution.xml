@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<page>
+  <entete>
+		<titre nom="XML et évolution du Web" />
+		<navigation>
+			<liste>
+				<lien nom="accueil" />
+				<lien nom="Origine et but du XML">
+					<sousliste>
+						<souslien nom="Les origines du xml" />
+						<souslien nom="Pourquoi le XML ?" />
+						<souslien nom="les atouts du XML" />
+						<souslien nom="Un format en vogue" />
+					</sousliste>
+				</lien>
+				<lien nom="Les évolutions du web">
+					<sousliste>
+						<souslien nom="Web 3.0" />
+						<souslien nom="Web sémantique" />
+						<souslien nom="Internet des objets" />
+						<souslien nom="Internet mobile" />
+					</sousliste>
+				</lien>
+				<lien nom="L’évolution du XML">
+					<sousliste>
+						<souslien nom="Les freins" />
+						<souslien nom="La convergence" />
+						<souslien nom="le langage du XXIème siècle ?" />
+					</sousliste>
+				</lien>
+				<lien nom="Conclusion" />
+			</liste>
+		</navigation>
+	</entete>
+	<corps>
+		<introduction>
+			<text>On commence à entendre beaucoup parler du langage xml depuis quelques années.
+				Le web étant aussi en perpétuelle évolution, le web 3.0 se profile avec des métamorphoses importantes
+				au niveau des applications pratiques. Le langage XML et ses dérivés sont-ils juste un effet de mode
+				ou vont-ils prendre une place de plus en plus importante dans les nouvelles évolutions de l'Internet ?</text>
+		</introduction>
+		<partie>
+			<titre>Les evolutions du web</titre>
+			<text>bablabla</text>
+			<titre>Web 3.0</titre>
+			<text>bablabla</text>
+			<titre>Web smantique</titre>
+			<text>bablabla</text>
+			<titre>Internet ds objets</titre>
+			<text>bablabla</text>
+			<titre>Internet mobile</titre>
+			<text>bablabla</text>
+		
+		</partie>
+	</corps>
+	<pied></pied>
+</page>
