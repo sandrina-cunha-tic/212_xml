@@ -67,6 +67,7 @@
 							</h3>
 							<p>
 								<xsl:value-of select="page/corps/articles/article1/text"/>
+								<a href="#"><img src="images/read.png" alt="bouton" class="read" /></a>
 							</p>
 						</div>
 						<div id="text_post-footer2">
@@ -78,6 +79,7 @@
 							</h3>
 							<p>
 								<xsl:value-of select="page/corps/articles/article2/text"/>
+								<a href="#"><img src="images/read.png" alt="bouton" class="read" /></a>
 							</p>
 						</div>
 						<div id="text_post-footer3">
@@ -89,12 +91,14 @@
 							</h3>
 							<p>
 								<xsl:value-of select="page/corps/articles/article3/text"/>
+								<a href="#"><img src="images/read.png" alt="bouton" class="read" /></a>
 							</p>
 						</div>
-						<footer>
+						<footer id="footer_index">
 							<p>
-								<xsl:value-of select="page/pied"/>
+								<xsl:value-of select="page/pied"/><a href="editorial.xml"><xsl:value-of select="page/pied/lien/@nom"/></a>
 							</p>
+							
 						</footer>
 					</div>
 				</div>
