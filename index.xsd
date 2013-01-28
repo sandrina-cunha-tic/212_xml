@@ -39,16 +39,8 @@
 	<xsd:element name="liste" use="required" maxOccurs="1">
 		<xsd:complexType>
 			<xsd:sequence>
-				<xsd:element name="lien_acc" use="required" maxOccurs="1"/>
 				<xsd:element name="lien" use="required" minOccurs="1" maxOccurs="unbounded"/>
-	§			<xsd:element name="lien_conc" use="required" maxOccurs="1"/>
 			</xsd:sequence>
-		</xsd:complexType>
-	</xsd:element>
-
-	<xsd:element name="lien_acc" use="required" maxOccurs="1">
-		<xsd:complexType>
-			<xsd:attribute name="nom" type="xsd:string" use="required"/>
 		</xsd:complexType>
 	</xsd:element>
 
@@ -66,12 +58,6 @@
 			<xsd:sequence>
 				<xsd:element name="souslien" use="required" minOccurs="1" maxOccurs="unbounded"/>
 			</xsd:sequence>
-			<xsd:attribute name="nom" type="xsd:string" use="required"/>
-		</xsd:complexType>
-	</xsd:element>
-
-	<xsd:element name="lien_conc" use="required" maxOccurs="1">
-		<xsd:complexType>
 			<xsd:attribute name="nom" type="xsd:string" use="required"/>
 		</xsd:complexType>
 	</xsd:element>
