@@ -44,26 +44,23 @@
 		<articles>
 			<article1 nom="Rappel " nom2="Historique">
 				<text>Oui alors écoute moi, premièrement, c'est juste une question d'awareness parce que spirituellement, on est tous ensemble, ok ? C'est pour ça que j'ai fait des films avec des replicants.
-					Oui alors écoute moi, premièrement, c'est juste une question d'awareness parce que spirituellement, on est tous ensemble, ok ? C'est pour ça que j'ai fait des films avec des replicants.
-					Oui alors écoute moi, premièrement, c'est juste une question d'awareness parce que spirituellement, on est tous ensemble, ok ? C'est pour ça que j'ai fait des films avec des replicants.
-
+					 d'awareness parce que spirituellement, on est tous ensemble, ok ? C'est pour ça que j'ai fait des films avec Oui alors écoute moi, premièrement, c'est juste une question d'awareness parce que spirituellement, on est tous ensemble, ok ? C'est pour ça que j'ai fait des films avec des replicants.
 					Oui alors écoute moi, premièrement, c'est juste une question d'awareness parce que spirituellement, on est tous ensemble, ok ? C'est pour ça que j'ai fait des films avec des replicants.</text>
 			</article1>
 			<article2 nom="Les atouts " nom2="du XML">
 				<text>Oui alors écoute moi, premièrement, c'est juste une question d'awareness parce que spirituellement, on est tous ensemble, ok ? C'est pour ça que j'ai fait des films avec des replicants.
-					Oui alors écoute moi, premièrement, c'est juste une question d'awareness parce que spirituellement, on est tous ensemble, ok ? C'est pour ça que j'ai fait des films avec des replicants.
-					Oui alors écoute moi, premièrement, c'est juste une question d'awareness parce que spirituellement, on est tous ensemble, ok ? C'est pour ça que j'ai fait des films avec des replicants.
-
-					Oui alors écoute moi, premièrement, c'est juste une question d'awareness parce que spirituellement, on est tous ensemble, ok ? C'est pour ça que j'ai fait des films avec des replicants.</text>
+					 parce que spirituellement, on est tous ensemble, ok ? C'est pour ça que j'ai fait des films avec  Oui alors écoute moi, premièrement, c'est juste une question d'awareness parce que spirituellement, on est tous ensemble, ok ? C'est pour ça que j'ai fait des films avec des replicants.
+					Oui alors écoute moi, premièrement, c'est juste une question d'awareness parce que spirituellement, on est tous ensemble, ok ? C'est pour ça que j'ai fait des films avec des replicants  avec des replicants.</text>
 			</article2>
 			<article3 nom="Les freins " nom2="du XML">
 				<text>Oui alors écoute moi, premièrement, c'est juste une question d'awareness parce que spirituellement, on est tous ensemble, ok ? C'est pour ça que j'ai fait des films avec des replicants.
-					Oui alors écoute moi, premièrement, c'est juste une question d'awareness parce que spirituellement, on est tous ensemble, ok ? C'est pour ça que j'ai fait des films avec des replicants.
-					Oui alors écoute moi, premièrement, c'est juste une question d'awareness parce que spirituellement, on est tous ensemble, ok ? C'est pour ça que j'ai fait des films avec des replicants.
-
-					Oui alors écoute moi, premièrement, c'est juste une question d'awareness parce que spirituellement, on est tous ensemble, ok ? C'est pour ça que j'ai fait des films avec des replicants.</text>
+					 parce que spirituellement, on est tous ensemble, ok ? C'est pour ça que j'ai fait des films avec alors écoute moi, premièrement, c'est juste une question d'awareness parce que spirituellement, on est tous ensemble, ok ? C'est pour ça que j'ai fait des films avec des replicants.
+					Oui alors écoute moi, premièrement, c'est juste une question d'awareness parce que spirituellement, on est tous ensemble, ok ? C'est pour ça que j'ai fait des films avec des replicants  avec des replicants.</text>
 			</article3>
 		</articles>
 	</corps>
-	<pied>ceci est mon footer bla bla bli blli et surtout copyright</pied>
+	<pied>
+		<text>Le site du groupe7</text>
+		<lien nom="Editorial" />
+	</pied>
 </page>
