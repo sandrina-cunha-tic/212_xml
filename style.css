@@ -1,56 +1,148 @@
-#content {
-  width:960px;
-	height:1000px;
-	border:1px solid black;
-	margin:auto;
-	background-color:#FBF2F2;
-	position:relative;
+* {
+	margin: 0;
+	padding: 0;
 }
-.list_down {
-	display:none;
+body {
+	background-color: #ffffff;
+	background: url(images/bg.png) repeat-x, url(images/footer.png) 0px 725px repeat-x;
+	font: 0.74em "Trebuchet MS", Arial, Sans-Serif;
+}
+header {
+	height: 150px;
+}
+#content {
+	width: 960px;
+	margin: auto;
+}
+h1 {
+	color: #9d2900;
+	font-size: 3em;
+	position: relative;
+	top: 50px;
+	text-shadow:5px 5px 6px gray;
+}
+h2 {
+	color: #fff2aa;
+	font-size: 2.3em;
+}
+h3 {
+	color: #444444;
+	font-size: 2em;
 }
 nav {
-	margin:auto;
-	width:900px;
-	height:100px;
+	position: relative;
+	left: 500px;
+	width: 900px;
+	height: 100px;
+	z-index: 10;
 }
 nav ul {
-	margin:0;
-	padding:12px;
-	list-style-type:none;
-	text-align:center;
+	margin: 0;
+	padding: 10px;
+	list-style-type: none;
+	text-align: center;
 }
 nav li {
-	float:left;
-	margin:auto;
-	padding:10px;
-	background-color:#E1D7D7;
-	border:1px solid black;
+	float: left;
+	margin: auto;
+	padding: 10px;
+}
+nav li:hover {
+	border-bottom: 3px solid #9d2900;
+	transition: background 1s;
+	-moz-transition: background 1s;
+	-webkit-transition: background 1s;
+	-o-transition: background 1s;
+	background: url(images/mini.png);
 }
 nav li a {
-	display:block;
-	width:150px;
-	color:white;
-	text-decoration:none;
-}
-nav ul li:hover {
-	background-color:#868181;
+	display: block;
+	width: 70px;
+	color: #2e072e;
+	text-decoration: none;
+	font-size: 1.3em;
 }
 nav ul li:hover a {
-	color:#E69898;
+	color: #9d2900;
 }
 nav ul li ul {
-	display:none;
+	display: none;
 }
 nav ul li:hover ul {
-	display:block;
-	
+	display: block;
 }
 nav li:hover ul li {
-	float:none;
+	float: none;
 	position: relative;
 	right: 21px;
 }
 nav li ul {
-	position:absolute;
+	position: absolute;
+}
+#bloc_header-down {
+	height: 250px;
+	position: relative;
+	z-index: 1;
+	background: url(images/xml.png) 600px 0px no-repeat;
+}
+#bloc_header-down a {
+	position: relative;
+	top: 205px;
+	right: 430px;
+	color: #fff2aa;
+	text-decoration: none;
+	margin-right: 10px;
+	padding: 50px;
+	background: url(images/step.gif) 32px 37px no-repeat;
+}
+#bloc_header-down a:hover {
+
+	background: url(images/step1.gif) 32px 37px no-repeat;
+}
+#text_header-down {
+	float: left;
+	width: 450px;
+}
+p {
+	line-height: 20px;
+}
+#text_header-down p {
+	text-align: justify;
+	color: #b4d8c6;
+	line-height: 20px;
+}
+#bloc_post-footer {
+	height: 390px;
+	text-align: justify;
+	position: relative;
+}
+#text_post-footer1 {
+	width: 300px;
+	float: left;
+	padding-right: 20px;
+}
+#text_post-footer2 {
+	width: 300px;
+	margin: auto;
+	padding-right: 20px;
+}
+#text_post-footer3 {
+	width: 300px;
+	float: right;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	padding-right: 20px;
+}
+.h3 {
+	color: #9d2900;
+}
+footer {
+	height: 50px;
+	margin-top: 20px;
+	background: url(images/logo.png) 800px 7px no-repeat;
+}
+footer p {
+	color: #fff2aa;
+	font-size: 0.75em;
 }
