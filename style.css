@@ -19,7 +19,7 @@ h1 {
 	font-size: 3em;
 	position: relative;
 	top: 50px;
-	text-shadow:5px 5px 6px gray;
+	text-shadow: 5px 5px 6px gray;
 }
 h2 {
 	color: #fff2aa;
@@ -137,12 +137,24 @@ p {
 .h3 {
 	color: #9d2900;
 }
-footer {
-	height: 50px;
+#footer_index {
+	height: 60px;
 	margin-top: 20px;
-	background: url(images/logo.png) 800px 7px no-repeat;
+	background: url(images/logo.png) 800px 27px no-repeat;
 }
-footer p {
+#footer_index p {
 	color: #fff2aa;
 	font-size: 0.75em;
+	position: relative;
+	top:35px;
+}
+#footer_index p a {
+	color: #fff2aa;
+	text-decoration: none;
+	margin-left: 300px;
+}
+.read{
+	float: right;
+	width: 60px;
+	height: 20px;
 }
