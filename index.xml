@@ -5,57 +5,58 @@
 		<titre nom="XML et évolution du Web" />
 		<navigation>
 			<liste>
-				<lien_acc nom="accueil" />
-				<lien nom="Les Origine">
+				<lien nom="Accueil">
 					<sousliste>
-						<souslien nom="Les origines" />
-						<souslien nom_1="Pourquoi?" />
-						<souslien nom_2="les atouts" />
-						<souslien nom_3="En vogue" />
+						<souslien nom="Origines" />
+						<souslien nom_1="Atouts" />
+						<souslien nom_2="Freins" />
 					</sousliste>
 				</lien>
-				<lien nom="Les évolutions">
+				<lien nom="actuelle">
+					<sousliste>
+						<souslien nom="Place" />
+						<souslien nom_1="Ajax" />
+						<souslien nom_2="Application" />
+					</sousliste>
+				</lien>
+				<lien nom="futur">
 					<sousliste>
 						<souslien nom="Web 3.0" />
-						<souslien nom_1="Sémantique" />
-						<souslien nom_2="Les objets" />
-						<souslien nom_3="Internet mobile" />
+						<souslien nom_1="Evolutions" />
+						<souslien nom_2="XXIème" />
 					</sousliste>
 				</lien>
-				<lien nom="L’évolution">
+				<lien nom="Conclusion">
 					<sousliste>
-						<souslien nom="Les freins" />
-						<souslien nom_1="La convergence" />
-						<souslien nom_2="Le langage?" />
+						<souslien nom="Liens 1" />
+						<souslien nom_1="Lien 2" />
+						<souslien nom_2="Lien 3" />
 					</sousliste>
 				</lien>
-				<lien_conc nom="Conclusion" />
 			</liste>
 		</navigation>
 	</entete>
 	<corps>
-		<introduction nom="haha haha hhihi hihi">
-			<text>On commence à entendre beaucoup parler du langage xml depuis quelques années.
-				Le web étant aussi en perpétuelle évolution, le web 3.0 se profile avec des métamorphoses importantes
-				au niveau des applications pratiques. Le langage XML et ses dérivés sont-ils juste un effet de mode
-				ou vont-ils prendre une place de plus en plus importante dans les nouvelles évolutions de l'Internet ?</text>
+		<introduction nom="Avant propos">
+			<text>On commence à entendre beaucoup parler du langage xml depuis quelques années, bien qu’il ne soit en réalité pas si nouveau que cela. Il présente des avantages indéniables au niveau de sa modularité, de sa lisibilité et de son universalité.
+				Dans le contexte où le web est aussi en perpétuelle évolution, où le web 3.0 se profile avec des métamorphoses importantes au niveau des applications pratiques, le langage XML et ses dérivés sont-ils juste un effet de mode ou vont-ils, comme cela semble probable, prendre une place centrale dans les technologies d’avenir ?</text>
 		</introduction>
 		<articles>
-			<article1 nom="article1" nom2="Completer">
+			<article1 nom="Rappel " nom2="Historique">
 				<text>Oui alors écoute moi, premièrement, c'est juste une question d'awareness parce que spirituellement, on est tous ensemble, ok ? C'est pour ça que j'ai fait des films avec des replicants.
 					Oui alors écoute moi, premièrement, c'est juste une question d'awareness parce que spirituellement, on est tous ensemble, ok ? C'est pour ça que j'ai fait des films avec des replicants.
 					Oui alors écoute moi, premièrement, c'est juste une question d'awareness parce que spirituellement, on est tous ensemble, ok ? C'est pour ça que j'ai fait des films avec des replicants.
 
 					Oui alors écoute moi, premièrement, c'est juste une question d'awareness parce que spirituellement, on est tous ensemble, ok ? C'est pour ça que j'ai fait des films avec des replicants.</text>
 			</article1>
-			<article2 nom="article2" nom2="Completer">
+			<article2 nom="Les atouts " nom2="du XML">
 				<text>Oui alors écoute moi, premièrement, c'est juste une question d'awareness parce que spirituellement, on est tous ensemble, ok ? C'est pour ça que j'ai fait des films avec des replicants.
 					Oui alors écoute moi, premièrement, c'est juste une question d'awareness parce que spirituellement, on est tous ensemble, ok ? C'est pour ça que j'ai fait des films avec des replicants.
 					Oui alors écoute moi, premièrement, c'est juste une question d'awareness parce que spirituellement, on est tous ensemble, ok ? C'est pour ça que j'ai fait des films avec des replicants.
 
 					Oui alors écoute moi, premièrement, c'est juste une question d'awareness parce que spirituellement, on est tous ensemble, ok ? C'est pour ça que j'ai fait des films avec des replicants.</text>
 			</article2>
-			<article3 nom="article3" nom2="Completer">
+			<article3 nom="Les freins " nom2="du XML">
 				<text>Oui alors écoute moi, premièrement, c'est juste une question d'awareness parce que spirituellement, on est tous ensemble, ok ? C'est pour ça que j'ai fait des films avec des replicants.
 					Oui alors écoute moi, premièrement, c'est juste une question d'awareness parce que spirituellement, on est tous ensemble, ok ? C'est pour ça que j'ai fait des films avec des replicants.
 					Oui alors écoute moi, premièrement, c'est juste une question d'awareness parce que spirituellement, on est tous ensemble, ok ? C'est pour ça que j'ai fait des films avec des replicants.
