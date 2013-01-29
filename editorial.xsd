@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <xsd:element name="text" type="xsd:string" use="required" minOccurs="0" maxOccurs="unbounded"/>
+	<xsd:element name="page" use="required" maxOccurs="1">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="entete" use="required" maxOccurs="1"/>
+				<xsd:element name="corps" use="required" maxOccurs="1"/>
+				<xsd:element name="pied" use="required" maxOccurs="1"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+
+	<xsd:element name="entete" use="required" maxOccurs="1">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="titre" use="required" maxOccurs="1"/>
+				<xsd:element name="navigation" use="required" maxOccurs="1"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+
+	<xsd:element name="titre" use="required" maxOccurs="1">
+		<xsd:complexType>
+			<xsd:attribute name="nom" type="xsd:string" use="required"/>
+		</xsd:complexType>
+	</xsd:element>
+
+	<xsd:element name="navigation" use="required" maxOccurs="1">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="liste" use="required"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+
+	<xsd:element name="liste" use="required" maxOccurs="1">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="lien" use="required" minOccurs="1" maxOccurs="unbounded"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+
+	<xsd:element name="lien" use="required" minOccurs="1" maxOccurs="unbounded">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="sousliste" use="required" minOccurs="1" maxOccurs="unbounded"/>
+			</xsd:sequence>
+			<xsd:attribute name="nom" type="xsd:string" use="required"/>
+		</xsd:complexType>
+	</xsd:element>
+
+	<xsd:element name="sousliste" use="required" minOccurs="1" maxOccurs="unbounded">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="souslien" use="required" minOccurs="1" maxOccurs="unbounded"/>
+			</xsd:sequence>
+			<xsd:attribute name="nom" type="xsd:string" use="required"/>
+		</xsd:complexType>
+	</xsd:element>
+
+	<xsd:element name="corps" use="required" maxOccurs="1">
+		<xsd:complexType>
+
+			<xsd:sequence>
+				<xsd:element name="introduction" use="required" maxOccurs="1"/>
+				<xsd:element name="articles" use="required" maxOccurs="1"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+
+	<xsd:element name="introduction" use="required" maxOccurs="1">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="text" use="required" maxOccurs="1"/>
+			</xsd:sequence>
+			<xsd:attribute name="nom" type="xsd:string" use="required"/>
+		</xsd:complexType>
+	</xsd:element>
+
+	<xsd:element name="membres" use="required" maxOccurs="1">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="membre1" use="required" maxOccurs="1"/>
+				<xsd:element name="membre2" use="required" maxOccurs="1"/>
+				<xsd:element name="membre3" use="required" maxOccurs="1"/>
+				<xsd:element name="membre4" use="required" maxOccurs="1"/>
+				<xsd:element name="membre5" use="required" maxOccurs="1"/>
+				<xsd:element name="membre6" use="required" maxOccurs="1"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+
+	<xsd:element name="membre1" use="required" maxOccurs="1">
+		<xsd:complexType>
+				<xsd:attribute name="nom" use="required" maxOccurs="1"/>
+				<xsd:attribute name="prenom" use="required" maxOccurs="1"/>
+		</xsd:complexType>
+	</xsd:element>
+
+	<xsd:element name="membre2" use="required" maxOccurs="1">
+		<xsd:complexType>
+				<xsd:attribute name="nom" use="required" maxOccurs="1"/>
+				<xsd:attribute name="prenom" use="required" maxOccurs="1"/>
+		</xsd:complexType>
+	</xsd:element>
+
+	<xsd:element name="membre3" use="required" maxOccurs="1">
+		<xsd:complexType>
+				<xsd:attribute name="nom" use="required" maxOccurs="1"/>
+				<xsd:attribute name="prenom" use="required" maxOccurs="1"/>
+		</xsd:complexType>
+	</xsd:element>
+
+	<xsd:element name="membre4" use="required" maxOccurs="1">
+		<xsd:complexType>
+				<xsd:attribute name="nom" use="required" maxOccurs="1"/>
+				<xsd:attribute name="prenom" use="required" maxOccurs="1"/>
+		</xsd:complexType>
+	</xsd:element>
+
+	<xsd:element name="membre5" use="required" maxOccurs="1">
+		<xsd:complexType>
+				<xsd:attribute name="nom" use="required" maxOccurs="1"/>
+				<xsd:attribute name="prenom" use="required" maxOccurs="1"/>
+		</xsd:complexType>
+	</xsd:element>
+
+	<xsd:element name="membre6" use="required" maxOccurs="1">
+		<xsd:complexType>
+				<xsd:attribute name="nom" use="required" maxOccurs="1"/>
+				<xsd:attribute name="prenom" use="required" maxOccurs="1"/>
+		</xsd:complexType>
+	</xsd:element>
+
+	<xsd:element name="pied" use="required" maxOccurs="1">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="text" use="required" maxOccurs="1"/>
+				<xsd:element name="lien" use="required" maxOccurs="unbounded"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+
+	<xsd:element name="lien" use="required" maxOccurs="unbounded">
+		<xsd:complexType>
+				<xsd:attribute name="nom" use="required" maxOccurs="1"/>
+		</xsd:complexType>
+	</xsd:element>
+</xsd:schema>
+</xsd:schema>
