@@ -1,36 +1,36 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <?xml-stylesheet href="editorial.xsl" type="text/xsl"?>
 <page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="editorial.xsd">
-  <entete>
+	<entete>
 		<titre nom="Editorial" />
 		<navigation>
 			<liste>
-				<lien nom="Accueil">
+				<lien nom="Accueil" lien="index.xml">
 					<sousliste>
-						<souslien nom="Origines" />
-						<souslien nom_1="Atouts" />
-						<souslien nom_2="Freins" />
+						<souslien nom="Origines" lien="origine.xml" />
+						<souslien2 nom_1="Atouts" lien1="atout.xml" />
+						<souslien3 nom_2="Freins" lien2="frein.xml" />
 					</sousliste>
 				</lien>
-				<lien nom="actuelle">
+				<lien nom="actuelle" lien="actuelle.xml">
 					<sousliste>
-						<souslien nom="Place" />
-						<souslien nom_1="Ajax" />
-						<souslien nom_2="Application" />
+						<souslien nom="Place" lien="place.xml" />
+						<souslien2 nom_1="Ajax" lien1="ajax.xml" />
+						<souslien3 nom_2="Application" lien2="app.xml" />
 					</sousliste>
 				</lien>
-				<lien nom="futur">
+				<lien nom="futur" lien="futur.xml">
 					<sousliste>
-						<souslien nom="Web 3.0" />
-						<souslien nom_1="Evolutions" />
-						<souslien nom_2="XXIème" />
+						<souslien nom="Web 3.0" lien="web.xml" />
+						<souslien2 nom_1="Evolutions" lien1="evol.xml" />
+						<souslien3 nom_2="XXIème" lien2="siecle.xml" />
 					</sousliste>
 				</lien>
-				<lien nom="Conclusion">
+				<lien nom="Conclusion" lien="conc.xml">
 					<sousliste>
-						<souslien nom="Liens 1" />
-						<souslien nom_1="Lien 2" />
-						<souslien nom_2="Lien 3" />
+						<souslien nom="Liens 1" lien="conc1.xml" />
+						<souslien2 nom_1="Lien 2" lien1="conc2.xml" />
+						<souslien3 nom_2="Lien 3" lien2="conc3.xml" />
 					</sousliste>
 				</lien>
 			</liste>
@@ -72,6 +72,6 @@
 	</corps>
 	<pied>
 		<text>Le site du groupe7</text>
-		<lien nom="Editorial" />
+		<lien_footer nom="Editorial" />
 	</pied>
 </page>
