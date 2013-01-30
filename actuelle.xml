@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<?xml-stylesheet href="actuelle.xsl" type="text/xsl"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd">
+  <entete>
+		<titre nom="Actuelle" />
+		<navigation>
+			<liste>
+				<lien nom="Accueil" lien="index.xml">
+					<sousliste>
+						<souslien nom="Origines" lien="origine.xml" />
+						<souslien2 nom_1="Atouts" lien1="atout.xml" />
+						<souslien3 nom_2="Freins" lien2="frein.xml" />
+					</sousliste>
+				</lien>
+				<lien nom="actuelle" lien="actuelle.xml">
+					<sousliste>
+						<souslien nom="Place" lien="place.xml" />
+						<souslien2 nom_1="Ajax" lien1="ajax.xml" />
+						<souslien3 nom_2="Application" lien2="app.xml" />
+					</sousliste>
+				</lien>
+				<lien nom="futur" lien="futur.xml">
+					<sousliste>
+						<souslien nom="Web 3.0" lien="web.xml" />
+						<souslien2 nom_1="Evolutions" lien1="evol.xml" />
+						<souslien3 nom_2="XXIème" lien2="siecle.xml" />
+					</sousliste>
+				</lien>
+				<lien nom="Conclusion" lien="conc.xml">
+					<sousliste>
+						<souslien nom="Liens 1" lien="conc1.xml" />
+						<souslien2 nom_1="Lien 2" lien1="conc2.xml" />
+						<souslien3 nom_2="Lien 3" lien2="conc3.xml" />
+					</sousliste>
+				</lien>
+			</liste>
+		</navigation>
+	</entete>
+	<corps>
+		<introduction nom="Avant propos">
+			<text>On commence à entendre beaucoup parler du langage xml depuis quelques années, bien qu’il ne soit en réalité pas si nouveau que cela. Il présente des avantages indéniables au niveau de sa modularité, de sa lisibilité et de son universalité.
+				Dans le contexte où le web est aussi en perpétuelle évolution, où le web 3.0 se profile avec des métamorphoses importantes au niveau des applications pratiques, le langage XML et ses dérivés sont-ils juste un effet de mode ou vont-ils, comme cela semble probable, prendre une place centrale dans les technologies d’avenir ?</text>
+		</introduction>
+		<articles>
+			<article1 nom="Rappel " nom2="Historique">
+				<text>Oui alors écoute moi, premièrement, c'est juste une question d'awareness parce que spirituellement, on est tous ensemble, ok ? C'est pour ça que j'ai fait des films avec des replicants.
+					 d'awareness parce que spirituellement, on est tous ensemble, ok ? C'est pour ça que j'ai fait des films avec Oui alors écoute moi, premièrement, c'est juste une question d'awareness parce que spirituellement, on est tous ensemble, ok ? C'est pour ça que j'ai fait des films avec des replicants.
+					Oui alors écoute moi, premièrement, c'est juste une question d'awareness parce que spirituellement, on est tous ensemble, ok ? C'est pour ça que j'ai fait des films avec des replicants.</text>
+			</article1>
+			<article2 nom="Les atouts " nom2="du XML">
+				<text>Oui alors écoute moi, premièrement, c'est juste une question d'awareness parce que spirituellement, on est tous ensemble, ok ? C'est pour ça que j'ai fait des films avec des replicants.
+					 parce que spirituellement, on est tous ensemble, ok ? C'est pour ça que j'ai fait des films avec  Oui alors écoute moi, premièrement, c'est juste une question d'awareness parce que spirituellement, on est tous ensemble, ok ? C'est pour ça que j'ai fait des films avec des replicants.
+					Oui alors écoute moi, premièrement, c'est juste une question d'awareness parce que spirituellement, on est tous ensemble, ok ? C'est pour ça que j'ai fait des films avec des replicants  avec des replicants.</text>
+			</article2>
+			<article3 nom="Les freins " nom2="du XML">
+				<text>Oui alors écoute moi, premièrement, c'est juste une question d'awareness parce que spirituellement, on est tous ensemble, ok ? C'est pour ça que j'ai fait des films avec des replicants.
+					 parce que spirituellement, on est tous ensemble, ok ? C'est pour ça que j'ai fait des films avec alors écoute moi, premièrement, c'est juste une question d'awareness parce que spirituellement, on est tous ensemble, ok ? C'est pour ça que j'ai fait des films avec des replicants.
+					Oui alors écoute moi, premièrement, c'est juste une question d'awareness parce que spirituellement, on est tous ensemble, ok ? C'est pour ça que j'ai fait des films avec des replicants  avec des replicants.</text>
+			</article3>
+		</articles>
+	</corps>
+	<pied>
+		<text_footer>Le site du groupe7</text_footer>
+		<lien_footer nom="Editorial" />
+	</pied>
+</page>
