@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <xsd:element name="text_footer" type="xsd:string"/>
+	<xsd:element name="article" type="xsd:string"/>
+
+	<xsd:element name="page">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="entete"/>
+				<xsd:element name="corps"/>
+				<xsd:element name="pied"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+
+	<xsd:element name="entete">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="titre"/>
+				<xsd:element name="navigation"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+
+	<xsd:element name="titre">
+		<xsd:complexType>
+			<xsd:attribute name="nom" type="xsd:string" use="required"/>
+		</xsd:complexType>
+	</xsd:element>
+
+	<xsd:element name="navigation">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="liste"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+
+	<xsd:element name="liste">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="lien"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+
+	<xsd:element name="lien">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="sousliste" minOccurs="1" maxOccurs="unbounded"/>
+			</xsd:sequence>
+			<xsd:attribute name="nom" type="xsd:string" use="required"/>
+			<xsd:attribute name="lien" type="xsd:string" use="required"/>
+		</xsd:complexType>
+	</xsd:element>
+
+	<xsd:element name="sousliste">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="souslien"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+
+	<xsd:element name="souslien">
+		<xsd:complexType>
+			<xsd:attribute name="nom" type="xsd:string" use="required"/>
+			<xsd:attribute name="lien" type="xsd:string" use="required"/>		
+		</xsd:complexType>
+	</xsd:element>
+
+	<xsd:element name="souslien2">
+		<xsd:complexType>
+			<xsd:attribute name="nom_1" type="xsd:string" use="required"/>
+			<xsd:attribute name="lien1" type="xsd:string" use="required"/>		
+		</xsd:complexType>
+	</xsd:element>	
+
+	<xsd:element name="souslien3">
+		<xsd:complexType>
+			<xsd:attribute name="nom_2" type="xsd:string" use="required"/>
+			<xsd:attribute name="lien2" type="xsd:string" use="required"/>		
+		</xsd:complexType>
+	</xsd:element>	
+
+	<xsd:element name="corps">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="introduction"/>
+				<xsd:element name="article"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+
+	<xsd:element name="introduction">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="text"/>
+			</xsd:sequence>
+			<xsd:attribute name="nom" type="xsd:string" use="required"/>
+		</xsd:complexType>
+	</xsd:element>
+
+
+	<xsd:element name="pied">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="text"/>
+				<xsd:element name="lien_footer"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+
+	<xsd:element name="lien_footer">
+		<xsd:complexType>
+				<xsd:attribute name="nom" use="required" type="xsd:string"/>
+		</xsd:complexType>
+	</xsd:element>
+</xsd:schema>
