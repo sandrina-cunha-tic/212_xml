@@ -1,55 +1,68 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
-<page>
-  <entete>
-		<titre nom="XML et évolution du Web" />
+<?xml-stylesheet href="origine.xsl" type="text/xsl"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="origine.xsd">
+	<entete>
+		<titre nom="Origine" />
 		<navigation>
 			<liste>
-				<lien nom="accueil" />
-				<lien nom="Origine et but du XML">
+				<lien nom="Accueil" lien="index.xml">
 					<sousliste>
-						<souslien nom="Les origines du xml" />
-						<souslien nom="Pourquoi le XML ?" />
-						<souslien nom="les atouts du XML" />
-						<souslien nom="Un format en vogue" />
+						<souslien nom="Origines" lien="origine.xml" />
+						<souslien2 nom_1="Atouts" lien1="atout.xml" />
+						<souslien3 nom_2="Freins" lien2="frein.xml" />
 					</sousliste>
 				</lien>
-				<lien nom="Les évolutions du web">
+				<lien nom="actuelle" lien="actuelle.xml">
 					<sousliste>
-						<souslien nom="Web 3.0" />
-						<souslien nom="Web sémantique" />
-						<souslien nom="Internet des objets" />
-						<souslien nom="Internet mobile" />
+						<souslien nom="Place" lien="place.xml" />
+						<souslien2 nom_1="Ajax" lien1="ajax.xml" />
+						<souslien3 nom_2="Application" lien2="app.xml" />
 					</sousliste>
 				</lien>
-				<lien nom="L’évolution du XML">
+				<lien nom="futur" lien="futur.xml">
 					<sousliste>
-						<souslien nom="Les freins" />
-						<souslien nom="La convergence" />
-						<souslien nom="le langage du XXIème siècle ?" />
+						<souslien nom="Web 3.0" lien="web.xml" />
+						<souslien2 nom_1="Evolutions" lien1="evol.xml" />
+						<souslien3 nom_2="XXIème" lien2="siecle.xml" />
 					</sousliste>
 				</lien>
-				<lien nom="Conclusion" />
+				<lien nom="Conclusion" lien="conc.xml">
+					<sousliste>
+						<souslien nom="Liens 1" lien="conc1.xml" />
+						<souslien2 nom_1="Lien 2" lien1="conc2.xml" />
+						<souslien3 nom_2="Lien 3" lien2="conc3.xml" />
+					</sousliste>
+				</lien>
 			</liste>
 		</navigation>
 	</entete>
 	<corps>
-		<introduction>
-			<text>On commence à entendre beaucoup parler du langage xml depuis quelques années.
-				Le web étant aussi en perpétuelle évolution, le web 3.0 se profile avec des métamorphoses importantes
-				au niveau des applications pratiques. Le langage XML et ses dérivés sont-ils juste un effet de mode
-				ou vont-ils prendre une place de plus en plus importante dans les nouvelles évolutions de l'Internet ?</text>
+		<introduction nom="Avant propos">
+			<text>On commence à entendre beaucoup parler du langage xml depuis quelques années, bien qu’il ne soit en réalité pas si nouveau que cela. Il présente des avantages indéniables au niveau de sa modularité, de sa lisibilité et de son universalité.
+				Dans le contexte où le web est aussi en perpétuelle évolution, où le web 3.0 se profile avec des métamorphoses importantes au niveau des applications pratiques, le langage XML et ses dérivés sont-ils juste un effet de mode ou vont-ils, comme cela semble probable, prendre une place centrale dans les technologies d’avenir ?</text>
 		</introduction>
-		<partie>
-			<titre>Origine et but du XML</titre>
-			<titre>Les origines : rappel historique en quelques dates cl�s</titre>
-			<text>bablabla</text>
-			<titre>Pourquoi le XML ?</titre>
-			<text>bablabla</text>
-			<titre>Les atouts du XML : lisible, extensible, universel</titre>
-			<text>bablabla</text>
-			<titre>Un format en vogue</titre>
-			<text>bablabla</text>
-		</partie>
+		<article>
+			Oui alors écoute moi, premièrement, c'est juste une question d'awareness parce que spirituellement, on est tous ensemble, ok ? C'est pour ça que j'ai fait des films avec des replicants.
+					 d'awareness parce que spirituellement, on est tous ensemble, ok ? C'est pour ça que j'ai fait des films avec Oui alors écoute moi, premièrement, c'est juste une question d'awareness parce que spirituellement, on est tous ensemble, ok ? C'est pour ça que j'ai fait des films avec des replicants.
+					Oui alors écoute moi, premièrement, c'est juste une question d'awareness parce que spirituellement, on est tous ensemble, ok ? C'est pour ça que j'ai fait des films avec des replicantsOui alors écoute moi, premièrement, c'est juste une question d'awareness parce que spirituellement, on est tous ensemble, ok ? C'est pour ça que j'ai fait des films avec des replicants.
+					 d'awareness parce que spirituellement, on est tous ensemble, ok ? C'est pour ça que j'ai fait des films avec Oui alors écoute moi, premièrement, c'est juste une question d'awareness parce que spirituellement, on est tous ensemble, ok ? C'est pour ça que j'ai fait des films avec des replicants.
+					Oui alors écoute moi, premièrement, c'est juste une question d'awareness parce que spirituellement, on est tous ensemble, ok ? C'est pour ça que j'ai fait des films avec des replicantsOui alors écoute moi, premièrement, c'est juste une question d'awareness parce que spirituellement, on est tous ensemble, ok ? C'est pour ça que j'ai fait des films avec des replicants.
+					 d'awareness parce que spirituellement, on est tous ensemble, ok ? C'est pour ça que j'ai fait des films avec Oui alors écoute moi, premièrement, c'est juste une question d'awareness parce que spirituellement, on est tous ensemble, ok ? C'est pour ça que j'ai fait des films avec des replicants.
+					Oui alors écoute moi, premièrement, c'est juste une question d'awareness parce que spirituellement, on est tous ensemble, ok ? C'est pour ça que j'ai fait des films avec des replicantsOui alors écoute moi, premièrement, c'est juste une question d'awareness parce que spirituellement, on est tous ensemble, ok ? C'est pour ça que j'ai fait des films avec des replicants.
+					 d'awareness parce que spirituellement, on est tous ensemble, ok ? C'est pour ça que j'ai fait des films avec Oui alors écoute moi, premièrement, c'est juste une question d'awareness parce que spirituellement, on est tous ensemble, ok ? C'est pour ça que j'ai fait des films avec des replicants.
+					Oui alors écoute moi, premièrement, c'est juste une question d'awareness parce que spirituellement, on est tous ensemble, ok ? C'est pour ça que j'ai fait des films avec des replicantsOui alors écoute moi, premièrement, c'est juste une question d'awareness parce que spirituellement, on est tous ensemble, ok ? C'est pour ça que j'ai fait des films avec des replicants.
+					 d'awareness parce que spirituellement, on est tous ensemble, ok ? C'est pour ça que j'ai fait des films avec Oui alors écoute moi, premièrement, c'est juste une question d'awareness parce que spirituellement, on est tous ensemble, ok ? C'est pour ça que j'ai fait des films avec des replicants.
+					Oui alors écoute moi, premièrement, c'est juste une question d'awareness parce que spirituellement, on est tous ensemble, ok ? C'est pour ça que j'ai fait des films avec des replicantsOui alors écoute moi, premièrement, c'est juste une question d'awareness parce que spirituellement, on est tous ensemble, ok ? C'est pour ça que j'ai fait des films avec des replicants.
+					 d'awareness parce que spirituellement, on est tous ensemble, ok ? C'est pour ça que j'ai fait des films avec Oui alors écoute moi, premièrement, c'est juste une question d'awareness parce que spirituellement, on est tous ensemble, ok ? C'est pour ça que j'ai fait des films avec des replicants.
+					Oui alors écoute moi, premièrement, c'est juste une question d'awareness parce que spirituellement, on est tous ensemble, ok ? C'est pour ça que j'ai fait des films avec des replicantsOui alors écoute moi, premièrement, c'est juste une question d'awareness parce que spirituellement, on est tous ensemble, ok ? C'est pour ça que j'ai fait des films avec des replicants.
+					 d'awareness parce que spirituellement, on est tous ensemble, ok ? C'est pour ça que j'ai fait des films avec Oui alors écoute moi, premièrement, c'est juste une question d'awareness parce que spirituellement, on est tous ensemble, ok ? C'est pour ça que j'ai fait des films avec des replicants.
+					Oui alors écoute moi, premièrement, c'est juste une question d'awareness parce que spirituellement, on est tous ensemble, ok ? C'est pour ça que j'ai fait des films avec des replicantsOui alors écoute moi, premièrement, c'est juste une question d'awareness parce que spirituellement, on est tous ensemble, ok ? C'est pour ça que j'ai fait des films avec des replicants.
+					 d'awareness parce que spirituellement, on est tous ensemble, ok ? C'est pour ça que j'ai fait des films avec Oui alors écoute moi, premièrement, c'est juste une question d'awareness parce que spirituellement, on est tous ensemble, ok ? C'est pour ça que j'ai fait des films avec des replicants.
+					Oui alors écoute moi, premièrement, c'est juste une question d'awareness parce que spirituellement, on est tous ensemble, ok ? C'est pour ça que j'ai fait des films avec des replicants
+		</article>
 	</corps>
-	<pied></pied>
+	<pied>
+		<text>Le site du groupe7</text>
+		<lien_footer nom="Editorial" />
+	</pied>
 </page>
