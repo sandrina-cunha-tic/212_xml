@@ -19,23 +19,35 @@
 							<ul>
 								<xsl:for-each select="page/entete/navigation/liste/lien" >
 									<li>
-										<a href="#">
+										<a>
+											<xsl:attribute name="href">
+												<xsl:value-of select="@lien"/>
+											</xsl:attribute>
 											<xsl:value-of select="@nom"/>
 										</a>
 										<ul class="close">
 											<li>
-												<a href="#">
+												<a>
+													<xsl:attribute name="href">
+														<xsl:value-of select="sousliste/souslien/@lien"/>
+													</xsl:attribute>
 													<xsl:value-of select="sousliste/souslien/@nom"/>
 												</a>
 											</li>
 											<li>
-												<a href="#">
-													<xsl:value-of select="sousliste/souslien/@nom_1"/>
+												<a>
+													<xsl:attribute name="href">
+														<xsl:value-of select="sousliste/souslien2/@lien1"/>
+													</xsl:attribute>
+													<xsl:value-of select="sousliste/souslien2/@nom_1"/>
 												</a>
 											</li>
 											<li>
-												<a href="#">
-													<xsl:value-of select="sousliste/souslien/@nom_2"/>
+												<a>
+													<xsl:attribute name="href">
+														<xsl:value-of select="sousliste/souslien3/@lien2"/>
+													</xsl:attribute>
+													<xsl:value-of select="sousliste/souslien3/@nom_2"/>
 												</a>
 											</li>
 										</ul>
@@ -67,7 +79,9 @@
 							</h3>
 							<p>
 								<xsl:value-of select="page/corps/articles/article1/text"/>
-								<a href="#"><img src="images/read.png" alt="bouton" class="read" /></a>
+								<a href="origine.xml">
+									<img src="images/read.png" alt="bouton" class="read" />
+								</a>
 							</p>
 						</div>
 						<div id="text_post-footer2">
@@ -79,7 +93,9 @@
 							</h3>
 							<p>
 								<xsl:value-of select="page/corps/articles/article2/text"/>
-								<a href="#"><img src="images/read.png" alt="bouton" class="read" /></a>
+								<a href="atout.xml">
+									<img src="images/read.png" alt="bouton" class="read" />
+								</a>
 							</p>
 						</div>
 						<div id="text_post-footer3">
@@ -91,14 +107,18 @@
 							</h3>
 							<p>
 								<xsl:value-of select="page/corps/articles/article3/text"/>
-								<a href="#"><img src="images/read.png" alt="bouton" class="read" /></a>
+								<a href="frein.xml">
+									<img src="images/read.png" alt="bouton" class="read" />
+								</a>
 							</p>
 						</div>
 						<footer id="footer_index">
 							<p>
-								<xsl:value-of select="page/pied"/><a href="editorial.xml"><xsl:value-of select="page/pied/lien/@nom"/></a>
+								<xsl:value-of select="page/pied"/>
+								<a href="editorial.xml">
+									<xsl:value-of select="page/pied/lien_footer/@nom"/>
+								</a>
 							</p>
-							
 						</footer>
 					</div>
 				</div>
